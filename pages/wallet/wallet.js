@@ -64,6 +64,7 @@ Page({
       })
     },
     showDeposit(){
+      let _this = this;
       wx.showModal({
         title: "",
         content: "押金会立即退回，退款后，您将不能使用ofo共享单车确认要进行此退款吗？",
@@ -73,10 +74,9 @@ Page({
         confirmColor: "#ccc",
         success: (res) => {
           if(res.confirm){
-            wx.showToast({
-              title: "退款成功",
-              icon: "success",
-              duration: 2000
+            wx.removeStorageSync('overage');
+            _this.setData({
+              overage:0
             })
           }
         }

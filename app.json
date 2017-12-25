@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/action/action",
     "pages/my/my",
+    "pages/action/action",
+    
     "pages/repair/repair",
     "pages/Unclock/Unclock",
     "pages/index1/index1",
