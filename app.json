@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/action/action",
     "pages/my/my",
     "pages/repair/repair",
     "pages/Unclock/Unclock",
@@ -8,6 +9,7 @@
     "pages/charge/charge",
     "pages/wallet/wallet",
     "pages/logs/logs",
+    "pages/Manual/Manual",
     "pages/billing/billing"
 
   ],

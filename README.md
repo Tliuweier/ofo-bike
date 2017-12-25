@@ -1,2 +1,2 @@
 # ofo-bike
-OFO  小程序
+ofo  小程序

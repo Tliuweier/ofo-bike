@@ -1,0 +1,13 @@
+<view class="container">
+    <!-- <view class="number">
+        <text>当前单车编号: {{number}}</text>
+    </view> -->
+    <view class="display-column">
+        <text class="title_big">欢迎使用ofo</text>
+        <text class="title_marign">请规范用车，骑行中不要关闭小程序</text>
+    </view>
+    <view class="endride">
+        <view class="btn-action" bindtap="endRide"><text>扫码骑车</text></view>
+        <view class="btn-input" bindtap="moveToManual">手动输入</view>
+    </view>
+</view>

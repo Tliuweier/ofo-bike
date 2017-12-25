@@ -6,9 +6,9 @@ Page({
   data:{
   	time:9
   },
-  onLoad(){
+  onLoad(e){
   	this.setData({
-  		password:2333
+  		password:e.password
   	})
   	let time = 9;
   	this.timer = setInterval(()=>{
@@ -18,7 +18,7 @@ Page({
   		if(time==0){
   			clearInterval(this.timer)
   			wx.redirectTo({
-  				url:'../billing/billing?number=' +256986
+  				url:'../billing/billing?number=' +e.number
   			})
   		}
   	},1000)
