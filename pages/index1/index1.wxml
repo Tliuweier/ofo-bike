@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <map id="ofomap" latitude="{{latitude}}"  longitude="{{longitude}}"  scale="{{scale}}"  controls="{{controls}}" bindcontroltap="controltap" markers="{{marker}}" 
+  	polyline="{{polyline}}" 
+  	bindmarkertap="bindmarkertap" 
+  	bindregionchange="bindregionchange"
+   show-location></map> 
+</view>

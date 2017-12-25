@@ -1,0 +1,52 @@
+.overage{
+    background-color: #8f928f;
+    padding: 40rpx 0;
+    text-align: center;
+}
+.overage-header{
+    font-size: 24rpx;
+}
+.overage-amount{
+    display: inline-block;
+    padding: 20rpx 0;
+    font-size: 100rpx;
+    font-weight: 700;
+}
+.overage-desc{
+    padding: 10rpx 30rpx;
+    font-size: 24rpx;
+    border-radius: 40rpx;
+    border: 1px solid #666;
+}
+.my-deposit{
+    margin-top: 2rpx;
+}
+.my-invcode{
+    margin-top: 40rpx;
+}
+.c-y{
+    color: #b9dd08;
+    padding-top: -5rpx;
+    padding-right: 10rpx;
+}
+.c-g{
+    padding-top: -5rpx;
+    padding-right: 10rpx;
+}
+.btn-charge{
+    width: 90%;
+    background-color: #67e866;
+    margin-top: 30rpx;
+}
+.my-ticket{
+    margin-top: 30rpx;
+}
+.tapbar{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 120rpx;
+    background-color: #fff;
+    align-items: center;
+    padding: 0 20rpx;
+}
